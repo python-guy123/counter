@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    <h1>Counter Program</h1>
+    <p id="out-1">0</p>
+    <button id="button-plus" onclick="function_plus()">Increment</button>
+    <button id="button-minus"onclick="function_minus()">Decrement</button>
+    <button id="button-reset" onclick="function_reset()">Reset</button>
+<script>
+    function function_plus(){
+        out = out+1
+        document.getElementById("out-1").innerHTML = out
+    }
+    function function_minus(){
+        out = out-1
+        document.getElementById("out-1").innerHTML = out
+    }
+    function function_reset(){
+        out = 0
+        document.getElementById("out-1").innerHTML = out
+    }
+</script>
+</body>
